@@ -1,4 +1,3 @@
-import styles from '../styles/tailwind.css';
 
 export const meta = () => {
   return [
@@ -7,9 +6,6 @@ export const meta = () => {
   ];
 };
 
-export const links = () => {
-  return [{rel: 'stylesheet', href: styles}]
-}
 
 export default function Index() {
   return (
